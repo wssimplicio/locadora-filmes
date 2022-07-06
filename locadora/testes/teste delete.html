@@ -1,0 +1,21 @@
+<html>
+	<head>
+	<title>Apaga dado em um Banco de Dados</title>
+	</head>
+
+	<body>
+	
+	<?php
+	include("Conexao.php");
+	
+	// SQL para apagar registro
+	$strSQL = " DELETE FROM tbcadastro WHERE 'id' = id"
+	mysql_query($strSQL);
+	
+	
+	?>
+
+	<h1>Registro apagado!</h1>
+
+	</body>
+	</html>

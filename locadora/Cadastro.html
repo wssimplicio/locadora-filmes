@@ -1,0 +1,93 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro</title>
+<style type="text/css">
+.Titulo {
+	font-size: 24px;
+	color: white;
+}
+.fundo{
+   background-image: url(fundo4.jpg);
+   background-repeat:  no-repeat;
+   background-size: cover;
+   
+   }
+</style>
+</head>
+
+<body class="fundo">
+<p class="Titulo"><strong>Cadastro de Cliente</strong></p>
+<form id="form1" name="form1" method="post" action="gravar-cadastro.php">
+<fieldset>
+  <legend><font color="white">Informações Principais</font></legend>  
+    <p><font color="white">Nome:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="Nome" id="textfield2" />
+    </p>
+	<p><font color="white">RG:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="RG" id="textfield2" />
+    </p>
+	<p><font color="white">CPF:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="CPF" id="textfield2" />
+    </p>
+    <p><font color="white">Idade:</font>
+      <label for="textfield3"></label>
+      <input type="number" name="Idade" id="textfield3" /> 
+      <font color="white">Data de Nascimento:</font> 
+      <label for="textfield4"></label>
+      <input type="date" name="DatadeNascimento" id="textfield4" />
+    </p>
+	<p><font color="white">E-Mail:</font>
+    <label for="textfield10"></label>
+    <input type="text" name="EMail" id="textfield10" />
+  </p>  
+</fieldset>
+<p>&nbsp;</p>
+<fieldset><legend><font color="white">Endereço / Telefone</font></legend>
+	<p><font color="white">CEP:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="CEP" id="textfield2" />
+    </p>
+	<p><font color="white">Endereço:</font>
+      <label for="textfield5"></label>
+    <input name="Endereco" type="text" id="textfield5" size="50" maxlength="50" />
+    </p>
+    <p><font color="white">Bairro:</font> 
+      <label for="textfield6"></label>
+      <input name="Bairro" type="text" id="textfield6" size="53" />
+    <font color="white">Cidade:</font>
+    <label for="textfield7"></label>
+    <input type="text" name="Cidade" id="textfield7" />
+    <font color="white">Estado:</font>
+    <label for="Estado"></label>
+    <label for="select"></label>
+    <select name="Estado" id="select">
+      <option value="SP">São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+	  <option value="RJ">Santa Catarina</option>
+	  <option value="RJ">Espirito Santo</option>
+	  <option value="RJ">Goiás</option>
+    </select>
+    </p>
+	<p><font color="white">Telefone:</font>
+    <label for="textfield10"></label>
+    <input type="text" name="Telefone" id="textfield10" />
+  </p>
+  <p><font color="white">Celular:</font>
+    <label for="textfield10"></label>
+    <input type="text" name="Celular" id="textfield10" />
+  </p>
+
+</fieldset>
+<br /><br/ >
+<input type="submit" name="button2" id="button2" value="Confirmar Cadastro" />
+</form>
+<form id="form1" name="form1" method="post" action="..\Pagina inicial\Pagina Inicial.html">
+<input type="submit" name="button2" id="button2" value="Pagina Inicial" />
+</form>
+<p>&nbsp;</p>
+</body>
+</html>  

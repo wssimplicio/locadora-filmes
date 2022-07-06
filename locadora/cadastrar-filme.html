@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastrar Filme</title>
+<style type="text/css">
+.Titulo {
+	font-size: 24px;
+	color: white;
+}
+.fundo{
+   background-image: url(fundo8.jpg);
+   background-repeat:  no-repeat;
+   background-size: cover;
+   
+   }
+</style>
+</head>
+
+<body class="fundo">
+<p class="Titulo"><strong>Cadastrar Filme</strong></p>
+<form id="form1" name="form1" method="post" action="gravar-filme.php">
+<fieldset>
+  <legend>Informações Principais</legend>  
+    <p><font color="white">Titulo:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="titulofilme" id="textfield2" />
+    </p>
+	<p><font color="white">Duração:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="duracaoFilme" id="textfield2" />
+    </p>
+	<p><font color="white">Valor de Locação:</font>
+      <label for="textfield2"></label>
+      <input type="text" name="valorlocacao" id="textfield2" />
+    </p>
+    <p><font color="white">Categoria:</font>
+      <label for="textfield3"></label>
+      <input type="number" name="idcategoria" id="textfield3" /> 
+    </p>
+</fieldset>
+
+
+</fieldset>
+<br /><br/ >
+<input type="submit" name="button2" id="button2" value="Confirmar Cadastro" />
+</form>
+<form id="form1" name="form1" method="post" action="menu.php">
+<input type="submit" name="button2" id="button2" value="Voltar" />
+</form>
+<p>&nbsp;</p>
+</body>
+</html>  
